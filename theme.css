@@ -48,6 +48,19 @@ body {font-family: Verdana, sans-serif;}
     text-align: center;
 }
 
+.ubytovanie {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.ubytovanie li {
+	display: inline-block;
+    width: 10.5%;
+    color: #666;
+    text-align: center;
+}
+
 /* Days (1-31) */
 .days {
     padding: 10px 0;
@@ -71,3 +84,22 @@ body {font-family: Verdana, sans-serif;}
     background: #1abc9c;
     color: white !important
 }
+
+
+
+.urg {
+	background-color:  #ff9999;
+}
+
+.paid {
+	background-color: #99ff99;
+}
+
+.awaiting {
+	background-color: #99c2ff;
+}
+
+.free {
+	background-color: #99ff99;
+}
+
